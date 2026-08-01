@@ -1,8 +1,27 @@
 aid: self
 name: Self
-description: Self is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Self (Self Financial, Inc.) is a fintech platform that helps people build
+  credit, savings, and access to cash through a small set of consumer financial products.
+  Its Credit Builder Account pairs a small installment loan with a locked savings
+  deposit and reports on-time payments to all three major credit bureaus; the Self
+  Secured Credit Card requires no credit check, and Rent & Bills Reporting and Self
+  Cash round out the lineup. Self serves several million members and is a Techstars
+  portfolio company. It is a consumer-facing product with no public developer API or
+  documentation surface at this time; this profile captures the company's public
+  identity, security posture, and compliance certifications.
 url: https://raw.githubusercontent.com/api-evangelist/self/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.self.inc/static/Self_Logo.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Fintech
+- Credit Building
+- Consumer Finance
+- Banking
+- Financial Services
+- Credit Card
+- Lending
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,26 @@ maintainers:
 common:
 - type: Website
   url: https://self.inc/
+- type: Pricing
+  url: https://www.self.inc/pricing
+- type: Blog
+  url: https://www.self.inc/blog/how-to-build-credit
+- type: Support
+  url: https://support.self.inc
+- type: SignUp
+  url: https://www.self.inc/
+- type: TermsOfService
+  url: https://www.self.inc/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.self.inc/privacy-policy
+- type: TrustCenter
+  url: security/self-trust-center.yml
+- type: Compliance
+  url: https://www.self.inc/trust
+- type: DomainSecurity
+  url: security/self-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
