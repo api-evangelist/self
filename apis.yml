@@ -48,7 +48,7 @@ tags:
 - Credit Building
 - Consumer Finance
 - Banking
-- Financial-Services
+- Financial Services
 - Credit Cards
 - Lending
 tags_raw:
@@ -60,6 +60,7 @@ tags_raw:
 - Financial Services
 - Credit Card
 - Lending
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
