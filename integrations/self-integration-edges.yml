@@ -1,0 +1,31 @@
+generated: '2026-10-12'
+method: searched
+source:
+- https://zapier.com/apps/self/integrations
+- https://n8n.io/integrations/self/
+- https://composio.dev/toolkits/self
+- https://monid.ai/tools/self
+checked:
+- https://composio.dev/toolkits/self
+- https://monid.ai/tools/self
+- https://n8n.io/integrations/self/
+- https://zapier.com/apps/self/integrations
+summary: null
+marketplace_apps: []
+edges:
+- partner_name: revolut
+  partner: revolut
+  partner_match: domain
+  type: contract
+  channel: partner-built
+  relationship: banking-partner
+  direction: partner-built
+  evidence: https://github.com/api-evangelist/revolut/blob/main/openapi/revolut-transactions-api-openapi.yml
+  contract_reference:
+    repo: revolut
+    spec_file: revolut-transactions-api-openapi.yml
+    value: self
+    property: components.schemas.TransactionCounterpartyAccountType
+    detected_by: detect-payment-method-edges.py
+    detected: '2026-10-12'
+templates: []
